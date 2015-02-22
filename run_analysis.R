@@ -47,4 +47,4 @@ dtMlt<-melt(mrgDt,id=c("Subject","Activity"),measure.vars = mrgNms[c(-1,-2)])
 tdySt<-dcast(dtMlt,...~variable,mean)
 
 # saving the tidy dataset
-write.table(tdySt,"tidydataset.txt")
+write.table(tdySt,"tidydataset.txt", row.name=FALSE)
