@@ -1,5 +1,11 @@
                                         DATA CODEBOOK - UCI HAR Dataset
 
+"Subject"
+    the index of the subject perform the experiment
+
+"Activity"
+	the name of the activity the subject took
+
 "tBodyAccmeanX"
 	mean of x component of time domain body acceleration signal
 
